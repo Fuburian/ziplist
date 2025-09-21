@@ -10,10 +10,10 @@ function zipList(list1: (number | string)[], list2: (number | string) []): (numb
 }
 
 function zipListTheFunctionalWay(
-  list1: ( string | number )[],
-  list2: ( string | number ) [] ): ( string | number )[] {
+  list1: (string | number)[],
+  list2: (string | number) []) : (string | number)[] {
   const zipped = list1.map((value, index) => [value, list2[index]]);
-  let final : ( string | number )[] = [];
+  let final : (string | number)[] = [];
   final = final.concat(...zipped);
   return final;
 }
