@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "**/*.ts"
+  ],
+  "scripts": {
+  "lint": "eslint *.ts",
+  "lint-fix": "eslint **/*.ts --fix",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
+  "exclude": [
+    "node_modules"
+  ]
+}
